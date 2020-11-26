@@ -75,7 +75,7 @@ var teran1 = Teran(power: 11, speed: 6, alive: 100, fire: .off, jump: false)
 
 StarCraft.allUnit()
 zerg1.war(fire: .on)
-teran1.jump = true
+teran1.war(fire: .off)
 
 print("zerg", zerg1.power, zerg1.speed, zerg1.alive, zerg1.fire, zerg1.buryUnderground)
 print("teran", teran1.power, teran1.speed, teran1.alive, teran1.fire, teran1.jump)
